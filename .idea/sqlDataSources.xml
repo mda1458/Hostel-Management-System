@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="80b97e73-3f24-4c71-9498-0ecbbd77b7c8" name="hostel@localhost Mapping">
+      <data-sources db="d339571a-407c-4048-8807-aa6b958b9f7d" ddl="e909406f-57d4-41ae-806d-5001cc4e0427" />
+    </mapping>
+    <mapping uuid="50cecfc2-32b0-4efa-93e4-bd30afea29d5" name="hostel_management@localhost Mapping">
+      <data-sources db="538774fe-21d9-4b06-81ab-df227e480625" ddl="ae660de0-0c57-4a20-99f5-e4d2f652bbc5" />
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="ae660de0-0c57-4a20-99f5-e4d2f652bbc5" />
+          <option name="name" value="hostel_management@localhost (DDL)" />
+          <option name="languageId" value="MySQL" />
+          <option name="urls">
+            <array />
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

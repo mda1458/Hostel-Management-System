@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Student.New_StudentController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Images/2188.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane prefHeight="35.0" prefWidth="1280.0" style="-fx-background-color: #212121;">
+         <center>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="HOSTEL MANAGEMENT SYSTEM" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Text>
+         </center>
+      </BorderPane>
+      <Button id="btn_back" fx:id="btn_back" layoutX="14.0" layoutY="47.0" mnemonicParsing="false" onMouseClicked="#back_btn_clicked" prefHeight="40.0" prefWidth="100.0" stylesheets="@../../Styles/menucomponent.css" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="reg_txt_username" layoutX="325.0" layoutY="261.0" prefHeight="40.0" prefWidth="300.0" promptText="Name" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_nsbmid" layoutX="325.0" layoutY="350.0" prefHeight="40.0" prefWidth="300.0" promptText="CMS ID" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_email" layoutX="678.0" layoutY="350.0" prefHeight="40.0" prefWidth="300.0" promptText="abc@gmail.com" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_phnmb" layoutX="327.0" layoutY="435.0" prefHeight="40.0" prefWidth="300.0" promptText="03XX-XXXXXXX" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_dept" layoutX="677.0" layoutY="435.0" prefHeight="40.0" prefWidth="300.0" promptText="SEECS/SCME etc" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_nic" layoutX="678.0" layoutY="261.0" prefHeight="40.0" prefWidth="300.0" promptText="CNIC No" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_address" alignment="TOP_LEFT" layoutX="323.0" layoutY="602.0" prefHeight="72.0" prefWidth="655.0" promptText="Address" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="reg_txt_guardname" layoutX="327.0" layoutY="513.0" prefHeight="40.0" prefWidth="300.0" promptText="Father/Guardian Name" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_txt_guardtel" layoutX="679.0" layoutY="513.0" prefHeight="40.0" prefWidth="300.0" promptText="03XX-XXXXXXX" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="327.0" layoutY="233.0" prefHeight="17.0" prefWidth="250.0" text="NAME" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="321.0" prefHeight="17.0" prefWidth="250.0" text="CMS ID" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="321.0" prefHeight="17.0" prefWidth="250.0" text="EMAIL" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="406.0" prefHeight="17.0" prefWidth="250.0" text="Student Contact" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="233.0" prefHeight="17.0" prefWidth="250.0" text="CNIC NO" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="609.0" layoutY="573.0" prefHeight="17.0" prefWidth="250.0" text="ADDRESS" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="328.0" layoutY="484.0" prefHeight="17.0" prefWidth="250.0" text="Father/Guardian Name" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="680.0" layoutY="484.0" prefHeight="17.0" prefWidth="250.0" text="Father/Guardian Contact" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="87.0" prefHeight="111.0" prefWidth="175.0" text="STUDENT REGISTRATION FORM" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Segoe UI Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button id="btn" fx:id="btn_reg_student" layoutX="563.0" layoutY="711.0" mnemonicParsing="false" onMouseClicked="#registerButtonAction" prefHeight="50.0" prefWidth="175.0" stylesheets="@../../Styles/MenuSec.css" text="REGISTER" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="678.0" layoutY="406.0" prefHeight="17.0" prefWidth="250.0" text="Department" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>
